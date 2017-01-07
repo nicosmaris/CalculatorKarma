@@ -24,6 +24,7 @@ module.exports = function(config) {
       'karma-firefox-launcher'
     ],
     // Continuous Integration mode: if true, Karma captures browsers, runs the tests and exits
-    singleRun: true
+    //singleRun: true
+    singleRun: false
   });
 };
